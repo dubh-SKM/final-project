@@ -23,16 +23,16 @@ Fork this repo, then clone it to your computer. Edit the README.md file by addin
 
 ### What My Site Will Be About ###
 1. If your website was a story, who would it be about?
-    - ??
+    - Me
 2. Summarize in one sentence what you want to tell the world through your website?
-    - ??
+    - About myself and my journey into tech
 3. What should the title of your website be?
-    - ??
+    - “The journey has begun”
 4. What three adjectives would people use to best describe the personality of the subject of your website? An adjective is a descriptive word, like “fun” or “adventurous”. This link has more examples: Common Adjectives
-    - ??
-    - ??
-    - ??
+    - Beautiful
+    - Interesting
+    - Clear
 5. Do you want your readers to be able to contact you?
-    - ??
+    - Yes
     - IF “YES”, in what ways would you like them to contact you?
-        -  ??
+        -  Contact form, social media
