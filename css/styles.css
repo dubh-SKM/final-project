@@ -122,13 +122,450 @@ h3 {
 
 }
 
+/* Home */
+
+/* About Me */
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-box ul li {
+    list-style-type: none;
+    margin-bottom: 7px;
+}
+
+
+.about-top-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 30rem;
+    height: 30rem;
+    flex: 1;
+}
+.about-about-text {
+    flex: 1;
+}
+
+.interests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.about-interest-rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-interests-row {
+    min-width: 30rem;
+    max-width: 40rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    border: 1px solid white;
+
+}
+.about-interests-row p {
+    margin-right: 2rem;
+    flex-basis: 30%;
+}
+.about-interests-tech-related { 
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 1rem;
+}
+.about-interests-non-tech-related {
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 1rem;
+}
+
+.list-title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.grid-item {
+    border: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.songs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+
+}
+.song {
+    border: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* Grid Item Backgrounds */
+.grid-item {
+    background-size: cover;
+}
+.music-mobb {
+    background-image: url(../img/music-mobb.jpg);
+}
+.music-hyphy {
+    background-image: url(../img/music-hyphy.jpg);
+}
+.music-newmobb {
+    background-image: url(../img/music-mobb.jpg);
+}
+.music-ambient {
+    background-image: url(../img/music-ambient.jpg);
+}
+.music-soul {
+    background-image: url(../img/music-soul.jpg);
+}
+.music-noise {
+    background-image: url(../img/music-noise.jpg);
+}
+.music-scores {
+    background-image: url(../img/music-scores.jpg);
+}
+.music-soul {
+    background-image: url(../img/music-soul.jpg);
+}
+.music-instrumental {
+    background-image: url(../img/music-instrumental.jpg);
+}
+.music-electronica {
+    background-image: url(../img/music-electronica.jpg);
+}
+.music-shoegaze {
+    background-image: url(../img/music-shoegaze2.jpg);
+}
+.music-memphis {
+    background-image: url(../img/music-memphis2.jpg);
+}
+.music-backpack {
+    background-image: url(../img/music1.jpg);
+}
+.music-eastcoast {
+    background-image: url(../img/music-eastcoast2.jpg);
+}
+
+/* Skills */
+
+
+
+.education ul {
+    list-style-type: disc;
+    font-size: 18px;
+}
+.container {
+    margin-top: 55px;
+}
+.education {
+    height: 80%;
+    width: 40%;
+    padding-bottom: 75px;
+    margin-left: 7%;
+    margin-right: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.languages-frameworks {
+    height: 50%;
+    width: 40%;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+.fa-brands .coming-soon {
+    font-size: 8px;
+    color: red;
+}
+.fa-brands {
+    vertical-align: top;
+}
+.fa-brands p {
+    font-size: 14px;
+    font-family: 'Aldrich', sans-serif;
+    color: white;
+}
+
+.fa-html5 {
+    color: rgb(219, 110, 0);
+    display: inline-block;
+}
+.fa-css3-alt {
+    color: rgb(123, 0, 205);
+    display: inline-block;
+
+}
+.fa-js {
+    color: yellow;
+}
+.fa-bootstrap {
+    color: rgb(123, 0, 255);
+}
+.fa-react {
+    color: aqua;
+}
+
+
+/* Projects */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading-box {
+    /* margin-top: 1em;
+    width: 60%;   
+    align-self: center;
+    padding: 0px;
+    text-align: center;
+    padding-top: .8em; */
+}
+
+.project-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.box {
+    flex: 1;
+    min-width: 400px;
+    background-color: rgba(0, 0, 0, .8);
+    color: wheat;
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255);
+    transition: box-shadow .5s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+    margin: 2rem 3rem;
+}
+.box:hover {
+    box-shadow: 0 0 50px white;
+}
+
+.box h2 {
+    text-decoration: underline;
+    font-family: 'Aldrich', sans-serif;
+}
+.box p {
+    color: white;
+    text-align: justify;
+}
+
+
+@media (max-width:800) {
+    .box {flex: 100%; background-color: aqua;}
+}
+
+
+/* Resources */
+
+/* body {
+    background-image: url(/portfolio-wfb/img/img6.jpg);
+    background-size: cover;
+    height: 100vh;
+} */
+
+
+
+.lists {
+    display: flex;
+    flex-direction: column;
+    list-style-type:disc;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin: 10px;
+    margin-top: 50px;
+}
+.lists h3 {
+    margin-bottom: 15px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+.lists ul li {
+    font-size: 18px;
+    margin: 10px;
+}
+
+
+.basic-box ul li {
+    font-size: 25px;
+    margin-bottom: 15px;
+
+}
+
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.channel-one {
+    flex: 1;
+}
+.channel-two {
+    flex: 1;
+}
+.channel-three {
+    flex: 1;
+}
+
+.more-resources-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.channel-four {
+    flex: 1;
+}
+.channel-five {
+    flex: 1;
+}
+.channel-six {
+    flex: 1;
+}
+.channel-seven {
+    flex: 1;
+}
+.channel-eight {
+    flex: 1;
+}
 
 
 
 
+.resources-study-tips {
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resources-study-tips ul {
+    margin: 0 2rem;
+}
+.resources-websites {
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resources-websites ul {
+    margin: 0 2rem;
+}
 
 
+.resources-youtube-channels {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.resources-youtube-channels-row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+
+.youtube-channel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: rgba(111, 0, 0, 0.132);
+    border: 2px solid white;
+    padding: 2rem;
+    margin: 1rem;
+    transition:  box-shadow .5s;
+    border-radius: 10px;
+}
+.youtube-channel:hover {
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+}
+.basic-box a {
+    color: rgb(244, 137, 36);
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(237, 203, 171);
+}
+
+
+/* Contact */
+
+/* body {
+    background-image: url(/portfolio-wfb/img/contact1.jpg);
+    background-size: cover;
+    height: 100vh;
+} */
+
+h2 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.box-container {
+    text-align: center;
+}
+.box {
+    background-color: rgba(0, 0, 0, .8);
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    border-radius: 10px;
+    border: 1px solid white;
+    display: inline-block;
+    width: 25%;
+    max-width: 180px;
+    text-align: center;
+    transition: box-shadow .5s;
+    vertical-align: top;
+}
+.box:hover {
+    box-shadow: 0 0 50px white;
+}
 
 
 
