@@ -1,0 +1,146 @@
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.basic-box ul li {
+    list-style-type: none;
+    margin-bottom: 7px;
+}
+
+
+.about-top-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar {
+    width: 30rem;
+    height: 30rem;
+    flex: 1;
+}
+.about-about-text {
+    flex: 1;
+}
+
+.interests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+}
+.about-interest-rows {
+    display: flex;
+    flex-wrap: wrap;
+}
+.about-interests-row {
+    min-width: 30rem;
+    max-width: 40rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 40%;
+    border: 1px solid white;
+
+}
+.about-interests-row p {
+    margin-right: 2rem;
+    flex-basis: 30%;
+}
+.about-interests-tech-related { 
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 1rem;
+}
+.about-interests-non-tech-related {
+    display: flex; 
+    flex-direction: column;
+    flex-basis: 40%;
+    padding: 1rem;
+}
+
+.list-title {
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content: center;
+    margin-top: 1rem;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+.grid-item {
+    border: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.songs {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+
+}
+.song {
+    border: 1px solid white;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* Grid Item Backgrounds */
+.grid-item {
+    background-size: cover;
+}
+.music-mobb {
+    background-image: url(../img/music-mobb.jpg);
+}
+.music-hyphy {
+    background-image: url(../img/music-hyphy.jpg);
+}
+.music-newmobb {
+    background-image: url(../img/music-mobb.jpg);
+}
+.music-ambient {
+    background-image: url(../img/music-ambient.jpg);
+}
+.music-soul {
+    background-image: url(../img/music-soul.jpg);
+}
+.music-noise {
+    background-image: url(../img/music-noise.jpg);
+}
+.music-scores {
+    background-image: url(../img/music-scores.jpg);
+}
+.music-soul {
+    background-image: url(../img/music-soul.jpg);
+}
+.music-instrumental {
+    background-image: url(../img/music-instrumental.jpg);
+}
+.music-electronica {
+    background-image: url(../img/music-electronica.jpg);
+}
+.music-shoegaze {
+    background-image: url(../img/music-shoegaze2.jpg);
+}
+.music-memphis {
+    background-image: url(../img/music-memphis2.jpg);
+}
+.music-backpack {
+    background-image: url(../img/music1.jpg);
+}
+.music-eastcoast {
+    background-image: url(../img/music-eastcoast2.jpg);
+}
