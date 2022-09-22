@@ -474,82 +474,47 @@ main {
 }
 
 
+
+
+
 .main {
     display: flex;
     flex-direction: column;
 }
 
-.resources-row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 
-}
-.channel-one {
-    flex: 1;
-}
-.channel-two {
-    flex: 1;
-}
-.channel-three {
-    flex: 1;
-}
 
-.more-resources-row {
+.channels-columns {
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.channel-four {
-    flex: 1;
-}
-.channel-five {
-    flex: 1;
-}
-.channel-six {
-    flex: 1;
-}
-.channel-seven {
-    flex: 1;
-}
-.channel-eight {
-    flex: 1;
-}
-
-
-
-
-.resources-study-tips {
-    min-width: 400px;
-    flex: 1;
+.channels-column1 {
     display: flex;
     flex-direction: column;
-}
-.resources-study-tips ul {
-    margin: 0 2rem;
-}
-.resources-websites {
+
+    align-items: center;
     min-width: 400px;
-    flex: 1;
-    display: flex;
-    flex-direction: column;
+    max-width: 600px;
 }
-.resources-websites ul {
-    margin: 0 2rem;
-}
-
-
-.resources-youtube-channels {
+.channels-column2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 40vw;
 }
-.resources-youtube-channels-row {
+.channels-column2-row1 {
     display: flex;
-    flex-wrap: wrap;
 }
-
+.channels-column2-row2 {
+    display: flex;
+}
+.channels-column2-row3 {
+    display: flex;
+}
 
 .youtube-channel {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -571,6 +536,44 @@ main {
 a:visited {
     color: rgb(237, 203, 171);
 }
+
+
+.resources-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.resources-study-tips {
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resources-study-tips ul {
+    margin: 0 2rem;
+}
+.resources-websites {
+    min-width: 400px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.resources-websites ul {
+    margin: 0 2rem;
+}
+
+/* Unused YouTube Embed Links
+
+
+
+<a href="https://www.youtube.com/c/SteveGriffith-Prof3ssorSt3v3" target="_blank" class="resource-title">Steve Griffith</a><p>AKA Prof3ssorSt3v3</p>
+ <iframe width="280" height="157.5" src="https://www.youtube.com/embed/zdubzXvqUyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+ */
+
+
 
 
 /* Contact */
