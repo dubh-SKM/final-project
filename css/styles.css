@@ -1,3 +1,36 @@
+
+
+/* 
+Global
+    *
+    body
+    header
+Global boxes
+Global text
+
+Music page
+
+About page
+Skills page
+Projects page
+Resources page
+Contacts page
+
+Code for centering a div
+Fonts
+Unused YouTube Embed Links
+
+*/
+
+
+/* Check */
+.emphasis {
+    color: rgb(255, 123, 0);
+}
+
+
+/* Global */
+
 * {
     margin: 0px;
     padding: 0px;
@@ -17,27 +50,12 @@ body {
     height: 100vh;
 }
 
-.emphasis {
-    color: rgb(255, 123, 0);
-}
-
-
 header {
     height: 120px;
     margin-bottom: 10px;
 }
 
-
-.title-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.233);
-    background: rgb(11,1,1);
-    background: linear-gradient(90deg, rgba(11,1,1,1) 3%, rgba(192, 101, 32, 0.228) 24%, rgba(11,1,1,0.5163107479319853) 35%, rgba(124, 6, 6, 0.32) 57%, rgba(0,0,0,1) 100%);
-    padding: .75rem;
-}
-/* gradient from https://cssgradient.io/ although I customized it to my liking*/
+/* Global text */
 
 a {
     color: rgb(201, 115, 64);
@@ -67,6 +85,22 @@ h2 {
 h3 {
     font-size: 20px;
 }
+
+
+
+/* Global Boxes */
+
+.title-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.233);
+    background: rgb(11,1,1);
+    background: linear-gradient(90deg, rgba(11,1,1,1) 3%, rgba(192, 101, 32, 0.228) 24%, rgba(11,1,1,0.5163107479319853) 35%, rgba(124, 6, 6, 0.32) 57%, rgba(0,0,0,1) 100%);
+    padding: .75rem;
+}
+/* gradient from https://cssgradient.io/ although I customized it to my liking*/
+
 .basic-box ul li {
     color: rgb(255, 235, 218);
     font-family: 'Barlow', sans-serif;
@@ -103,6 +137,9 @@ h3 {
         margin-bottom: 7px;
  } */
 
+
+
+/* Music page */
 
 
 .music-container {
@@ -313,7 +350,7 @@ h3 {
     background-image: url(../img/music-eastcoast2.jpg);
 }
 
-/* Skills */
+/* Skills page */
 
 
 
@@ -386,14 +423,7 @@ main {
     flex-direction: column;
 }
 
-.heading-box {
-    /* margin-top: 1em;
-    width: 60%;   
-    align-self: center;
-    padding: 0px;
-    text-align: center;
-    padding-top: .8em; */
-}
+/* Check - redundant boxes? */
 
 .project-boxes {
     display: flex;
@@ -436,13 +466,18 @@ main {
 }
 
 
-/* Resources */
+/* Resources page */
 
-/* body {
-    background-image: url(/portfolio-wfb/img/img6.jpg);
-    background-size: cover;
-    height: 100vh;
-} */
+/* Resources Page */
+
+.resource-title {
+    font-size: 2rem;
+    text-align: center;
+}
+.resource-paragraph {
+    font-size: 1.2rem;
+    text-align: center;
+}
 
 
 
@@ -467,14 +502,13 @@ main {
 }
 
 
+/* Redundant box formatting? */
+
 .basic-box ul li {
     font-size: 25px;
     margin-bottom: 15px;
 
 }
-
-
-
 
 
 .main {
@@ -563,20 +597,11 @@ a:visited {
     margin: 0 2rem;
 }
 
-/* Unused YouTube Embed Links
-
-
-
-<a href="https://www.youtube.com/c/SteveGriffith-Prof3ssorSt3v3" target="_blank" class="resource-title">Steve Griffith</a><p>AKA Prof3ssorSt3v3</p>
- <iframe width="280" height="157.5" src="https://www.youtube.com/embed/zdubzXvqUyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
- */
 
 
 
 
-/* Contact */
+/* Contact page */
 
 
 h2 {
@@ -647,17 +672,6 @@ label[for="full-name"] {
 
 
 
-/* Resources Page */
-
-.resource-title {
-    font-size: 2rem;
-    text-align: center;
-}
-.resource-paragraph {
-    font-size: 1.2rem;
-    text-align: center;
-}
-
 
 
 
@@ -670,7 +684,6 @@ label[for="full-name"] {
 top: 50%;
 left: 50%;
 transform: translate(-57%, 5%); */
-
 
 
 /* 
@@ -701,3 +714,15 @@ font-family: 'Russo One', sans-serif;
 font-family: 'Silkscreen', cursive;
 font-family: 'Staatliches', cursive;
 font-family: 'Ubuntu', sans-serif; */
+
+
+
+/* Unused YouTube Embed Links
+
+
+
+<a href="https://www.youtube.com/c/SteveGriffith-Prof3ssorSt3v3" target="_blank" class="resource-title">Steve Griffith</a><p>AKA Prof3ssorSt3v3</p>
+ <iframe width="280" height="157.5" src="https://www.youtube.com/embed/zdubzXvqUyw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+ */
