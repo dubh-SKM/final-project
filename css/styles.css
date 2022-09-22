@@ -8,13 +8,13 @@ Global
 Global boxes
 Global text
 
-Music page
 
 About page
 Skills page
 Projects page
 Resources page
 Contacts page
+Music page
 
 Code for centering a div
 Fonts
@@ -86,7 +86,9 @@ h3 {
     font-size: 20px;
 }
 
-
+.emphasis {
+    color: rgb(255, 123, 0);
+}
 
 /* Global Boxes */
 
@@ -139,25 +141,6 @@ h3 {
 
 
 
-/* Music page */
-
-
-.music-container {
-}
-.music-explanation {
-    position: absolute;
-    top: 15%;
-    left: 50%;
-    transform: translate(-57%, 5%);
-    text-align: center;
-}
-.music-player {
-    position: absolute;
-    top: 70%;
-    left: 54.5%;
-    transform: translate(-57%, 5%);
-
-}
 
 /* Home */
 
@@ -416,7 +399,21 @@ h3 {
 }
 
 
-/* Projects */
+/* Projects page */
+
+/*  Page layout 
+    
+    main
+        project-boxes
+            box
+    
+    
+    title-box
+
+
+*/
+
+
 
 main {
     display: flex;
@@ -466,9 +463,55 @@ main {
 }
 
 
-/* Resources page */
 
 /* Resources Page */
+
+
+/* Page layout 
+
+main
+    resources intro
+
+    resources-youtube-channels
+        channels-columns
+            channels-column1
+                youtube-channel
+                youtube-channel
+                youtube-channel
+            channels-column2
+                channels-column2-row1
+                    youtube-channel
+                    youtube-channel
+                channels-column2-row2
+                    youtube-channel
+                    youtube-channel
+                channels-column2-row3
+                    youtube-channel
+                        resource paragraph
+                        a
+                        a
+                        a
+    resources-row
+        study-habits
+        websites-list
+            title-box
+                ul
+                    li
+            title-box
+                ul
+                    li
+            title-box
+                ul
+                    li
+    
+
+emphasis
+title-box
+basic-box
+vid-container
+title-box
+
+*/
 
 .resource-title {
     font-size: 2rem;
@@ -603,6 +646,21 @@ a:visited {
 
 /* Contact page */
 
+/* Contacts page layout  
+
+main
+ h2
+ fs-frm
+
+ box-container
+    a
+    a
+    a
+    a
+
+
+*/
+
 
 h2 {
     text-align: center;
@@ -653,6 +711,25 @@ label[for="full-name"] {
 
 
 
+/* Music page */
+
+
+.music-container {
+}
+.music-explanation {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-57%, 5%);
+    text-align: center;
+}
+.music-player {
+    position: absolute;
+    top: 70%;
+    left: 54.5%;
+    transform: translate(-57%, 5%);
+
+}
 
 
 
