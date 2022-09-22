@@ -544,22 +544,22 @@ a:visited {
     flex-wrap: wrap;
 }
 
-.resources-study-tips {
+.study-habits {
     min-width: 400px;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.resources-study-tips ul {
+.study-habits ul {
     margin: 0 2rem;
 }
-.resources-websites {
+.websites-list {
     min-width: 400px;
     flex: 1;
     display: flex;
     flex-direction: column;
 }
-.resources-websites ul {
+.websites-list ul {
     margin: 0 2rem;
 }
 
