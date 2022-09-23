@@ -23,8 +23,11 @@ about
             avatar
             about-me
         section 2 interests
-            tech
-            tech adjacent
+            interests-row
+                tech-interests
+                    ul
+                tech-adjacent-interests
+                    ul
         section 3 musical interests
             grid 12 boxes
     footer

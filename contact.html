@@ -35,35 +35,34 @@
         </div>
     </header>
 
-    <div class="main">
-
     <h2>Contact</h2>
+    <main>
+        <div class="flex-container">
+            <section class="form">
+                <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
+                    <fieldset id="fs-frm-inputs">
+                    <label for="full-name">Full Name</label>
+                    <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                    <label for="telephone">Telephone Number (Optional)</label>
+                    <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
+                    <label for="message">Message</label>
+                    <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+                    <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+                    </fieldset>
+                    <input type="submit" value="Submit" class="submit-button">
+                </form>
+            </section>
+            <section class="box-container">
+                    <a href="https://www.instagram.com/obsidian_skm/" target="_blank"><div class="contact-box"><h3>Instagram</h3><i class="fa-brands fa-instagram fa-3x"></i></div></a>
+                    <a href="https://twitter.com/Obsidian_SKM" target="_blank"><div class="contact-box"><h3>Twitter</h3><i class="fa-brands fa-twitter fa-3x"></i></div></a>
+                    <a href="https://www.facebook.com/profile.php?id=100085135195717" target="_blank"><div class="contact-box"><h3>Facebook</h3><i class="fa-brands fa-facebook fa-3x"></i></div></a>
+            </section>
+        </div>
+    
 
-    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/{form_id}" method="post">
-        <fieldset id="fs-frm-inputs">
-          <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-          <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
-          <label for="telephone">Telephone Number (Optional)</label>
-          <input type="telephone" name="telephone" id="telephone" placeholder="(555) 555-5555">
-          <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
-        </fieldset>
-        <input type="submit" value="Submit" class="submit-button">
-      </form>
-
-
-    <div class="box-container">
-            <a href="mailto:obsidian.skm@gmail.com"><div class="contact-box"><h3>E-Mail</h3><i class="fa-solid fa-envelope fa-3x"></i></div></a>
-            <a href="https://www.instagram.com/obsidian_skm/" target="_blank"><div class="contact-box"><h3>Instagram</h3><i class="fa-brands fa-instagram fa-3x"></i></div></a>
-            <a href="https://twitter.com/Obsidian_SKM" target="_blank"><div class="contact-box"><h3>Twitter</h3><i class="fa-brands fa-twitter fa-3x"></i></div></a>
-            <a href="https://www.facebook.com/profile.php?id=100085135195717" target="_blank"><div class="contact-box"><h3>Facebook</h3><i class="fa-brands fa-facebook fa-3x"></i></div></a>
-            
-    </div>
-
-    </div>
+    </main>
 
 <footer>
     <div class="git-link">
